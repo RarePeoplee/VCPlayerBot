@@ -22,7 +22,7 @@ from logger import LOGGER
 
 buttons = [
     [
-        InlineKeyboardButton('⚡️Make Own Bot', url='https://t.me/rarePEOPLE'),
+        InlineKeyboardButton('⚡️Developer', url='https://t.me/rarePEOPLE'),
         InlineKeyboardButton('🧩 Join Here', url='https://t.me/bad_vibe_sucks'),
     ]
     ]
