@@ -22,7 +22,7 @@ from config import Config
 from logger import LOGGER
 import os
 
-HOME_TEXT = "<b>Hey  [{}](tg://user?id={}) 🙋‍♂️\n\nIam A Bot Built To Play or Stream Videos In Telegram VoiceChats.\nI Can Stream Any YouTube Video Or A Telegram File Or Even A YouTube Live.</b>"
+HOME_TEXT = "<b>Hey  [{}](tg://user?id={}) 🙋‍♂️\n\nIam A Bot Built by AGASTYA To Play or Stream Videos In SHADOW BROKERS.\nI Can Stream Any YouTube Video Or A Telegram File Or Even A YouTube Live.</b>"
 admin_filter=filters.create(is_admin) 
 
 @Client.on_message(filters.command(['start', f"start@{Config.BOT_USERNAME}"]))
@@ -60,8 +60,8 @@ async def show_help(client, message):
 async def repo_(client, message):
     buttons = [
         [
-            InlineKeyboardButton('🧩 Repository', url='https://t.me/rarePEOPLE'),
-            InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/rarePEOPLE'),
+            InlineKeyboardButton('🧩 DEVELOPER', url='https://t.me/agastyaopxd'),
+            InlineKeyboardButton('⚙️ info', url='https://t.me/rarePEOPLE'),
             
         ],
     ]
