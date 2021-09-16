@@ -225,9 +225,9 @@ allcmd = ["play", "player", f"play@{Config.BOT_USERNAME}", f"player@{Config.BOT_
 async def not_chat(_, m: Message):
     buttons = [
         [
-            InlineKeyboardButton('⚡️Make Own Bot', url='https://t.me/rarePEOPLE'B),
+            InlineKeyboardButton('⚡️Developer', url='https://t.me/rarePEOPLE'),
             InlineKeyboardButton('🧩 Join Here', url='https://t.me/bad_vibe_sucks'),
         ]
         ]
-    await m.reply("<b>You can't use this bot in this group, for that you have to make your own bot from the [SOURCE CODE](https://t.me/rarePEOPLE), reply_markup=InlineKeyboardMarkup(buttons))
+    await m.reply("<b>You can't use this bot in this group, **Not your cup of tea** [Developer](https://t.me/agastyaopxd), reply_markup=InlineKeyboardMarkup(buttons))
 
